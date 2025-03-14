@@ -1,9 +1,7 @@
-// screens/contact_screen.dart
 import 'package:flutter/material.dart';
 import '../widgets/contact_item.dart';
 
 class ContactScreen extends StatelessWidget {
-  // Constructor tanpa super.key untuk kompatibilitas
   ContactScreen({Key? key}) : super(key: key);
   
   final _formKey = GlobalKey<FormState>();
