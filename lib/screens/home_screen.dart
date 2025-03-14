@@ -1,10 +1,8 @@
-// screens/home_screen.dart
 import 'package:flutter/material.dart';
 import '../models/profile.dart';
 import '../widgets/skill_chip.dart';
 
 class HomeScreen extends StatelessWidget {
-  // Constructor tanpa super.key untuk kompatibilitas
   HomeScreen({Key? key}) : super(key: key);
 
   final Profile profile = Profile.getSampleProfile();
