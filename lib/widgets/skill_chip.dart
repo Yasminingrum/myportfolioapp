@@ -1,10 +1,8 @@
-// widgets/skill_chip.dart
 import 'package:flutter/material.dart';
 
 class SkillChip extends StatelessWidget {
   final String skill;
 
-  // Constructor tanpa super.key untuk kompatibilitas
   const SkillChip({Key? key, required this.skill}) : super(key: key);
 
   @override
