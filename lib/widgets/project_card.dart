@@ -1,11 +1,9 @@
-// widgets/project_card.dart
 import 'package:flutter/material.dart';
 import '../models/project.dart';
 
 class ProjectCard extends StatelessWidget {
   final Project project;
 
-  // Constructor tanpa super.key untuk kompatibilitas
   const ProjectCard({Key? key, required this.project}) : super(key: key);
 
   @override
