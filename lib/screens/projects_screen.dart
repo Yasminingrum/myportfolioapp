@@ -1,10 +1,8 @@
-// screens/projects_screen.dart
 import 'package:flutter/material.dart';
 import '../models/project.dart';
 import '../widgets/project_card.dart';
 
 class ProjectsScreen extends StatelessWidget {
-  // Constructor tanpa super.key untuk kompatibilitas
   ProjectsScreen({Key? key}) : super(key: key);
   
   final List<Project> projects = Project.getSampleProjects();
