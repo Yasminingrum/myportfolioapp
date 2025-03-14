@@ -72,6 +72,3 @@ Aplikasi telah diuji untuk:
 - Menambahkan mode gelap (dark mode) yang dapat diubah.
 - Mengintegrasikan backend nyata untuk pengiriman formulir kontak.
 - Menambahkan animasi untuk transisi antar layar yang lebih halus.
-
-## Interface
-<img src="C:\Users\s340\Downloads\myportfolioapp\assets\images\project3.png"/>
