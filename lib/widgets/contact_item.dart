@@ -1,4 +1,3 @@
-// widgets/contact_item.dart
 import 'package:flutter/material.dart';
 
 class ContactItem extends StatelessWidget {
@@ -6,7 +5,6 @@ class ContactItem extends StatelessWidget {
   final String title;
   final String subtitle;
 
-  // Constructor tanpa super.key untuk kompatibilitas
   const ContactItem({
     Key? key,
     required this.icon,
